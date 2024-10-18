@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    color: aliceblue;
+    background-size: cover;
+    background-image: url(resources/wallpaperflare.com_wallpaper.jpg);
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    margin: 0px;
+    display: block;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(32, 19, 19);
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(167, 55, 55);
+}
+
+.jn{
+    text-align: center;
+    margin: 50px;
+}
+
+.CSTU {
+    padding-left: 20px;
+    transform-origin: left;
+    user-select: none;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: rgb(32, 19, 19);
+    font-weight: 500;
+    transform-origin: right;
+    padding-right: 20px;
+}
+
+h1 {
+    font-family: "SUSE", sans-serif;
+}
+
+h2 {
+    padding-left: 20px;
+    font-family: "SUSE", sans-serif;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+table, th {
+    border: 1px solid aliceblue;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+#hobby1 {
+    width: 500px;
+}
+
+#hobby2 {
+    height: 275px;
+}
+
+div.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+#valo, #once, #eafc {
+    height: 100px;
+}
+
+#Me {
+    width: 500px;
+}
+
+ul{
+    justify-content: left;
+}
+
+.info{
+    margin-left: 20px;
+}
+
+.section-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 25px;
+    overflow: auto;
+    position: relative;
+    display: flow-root;
+    padding: 0px 20px;
+    margin: 20px 50px ;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(12, 7, 7) 
+}
+
+h3 {
+    border-radius: 25px;
+    border: 1px solid;
+    text-align: center;
+    background-color: rgb(167, 55, 55);
+}
+
+.future{
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(12, 7, 7);
+    background-color: rgb(12, 7, 7);
+    height: 600px;
+    width: 100%;
+}
+
+#code{
+    box-sizing: border-box;
+    border: 1px rgb(12, 7, 7);
+    background-color: rgb(12, 7, 7);
+    font-size: x-large;
+    float: left;
+    height: 90%;
+    width: 40%;
+    padding: 0px 20px;
+}
+#code-pic{
+    box-sizing: border-box;
+    float: left;
+    height: 90%;
+    width: 60%;
+    padding: 0px 20px;
+}
+
+#A{
+    font-size: 70px
+    
+}
+
+#small{
+    font-size: 20px;
+}
