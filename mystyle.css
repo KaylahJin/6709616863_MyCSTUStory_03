@@ -61,19 +61,23 @@ table, th {
     margin: 20px auto;
 }
 
-#hobby1 {
-    width: 500px;
-}
-
-#hobby2 {
-    height: 275px;
-}
-
 div.table-container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#hobby1 {
+    width: 300px;
+}
+
+#hobby2 {
+    height: 168.75px;
+}
+
+#Me {
+    width: 395px;
 }
 
 figure {
@@ -83,10 +87,6 @@ figure {
 
 #valo, #once, #eafc {
     height: 100px;
-}
-
-#Me {
-    width: 500px;
 }
 
 ul{
@@ -161,4 +161,36 @@ h3 {
 
 #small{
     font-size: 20px;
+}
+
+@media screen and (max-width: 700px){
+    .navigation a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 320px){
+    #Me {
+        width: 395px;
+    }
+    #hobby1 {
+        width: 300px;
+    }
+    
+    #hobby2 {
+        height: 168.75px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #Me {
+        width: 658.20px;
+    }
+    #hobby1 {
+    width: 500px;
+    }
+
+    #hobby2 {
+    height: 281.25px;
+    }
 }
